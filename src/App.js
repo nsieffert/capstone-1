@@ -6,6 +6,7 @@ import Filter from "./Components/Filter";
 import inventoryItems from "./inventoryItems";
 import Cart from "./Components/Cart";
 import ProductList from "./Components/ProductList";
+import About from "./Components/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App(props) {
@@ -20,8 +21,15 @@ function App(props) {
   return (
     <div>
       <Header />
+
       <Router>
         <Navbar />
+        <h1 className="OurItems">Knives and Leather Works</h1>
+        <p className="input">Click Refresh to clear Search</p>;
+        <Filter
+          className="input"
+          searchCategories={searchCategories.bind(props)}
+        />
         <Switch>
           <Route
             exact
@@ -47,12 +55,9 @@ function App(props) {
               />
             )}
           ></Route>
+          <About />
         </Switch>
       </Router>
-      <h1 className="OurItems">Knives and Leather Works</h1>
-      <h3 className="OurItems">Click Shop to shop our products!</h3>
-      <p className="input">Click Refresh to clear Search</p>;
-      <Filter searchCategories={searchCategories.bind(props)} />
     </div>
   );
 }

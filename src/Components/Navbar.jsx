@@ -6,10 +6,13 @@ function Navbar() {
     <nav>
       <ul className="nav">
         <Link to="/home">
-          <li>Products</li>
+          <li>Home</li>
         </Link>
         <Link to="/cart">
-          <li>Shop</li>
+          <li>Checkout</li>
+        </Link>
+        <Link to="/about">
+          <li>About</li>
         </Link>
       </ul>
     </nav>

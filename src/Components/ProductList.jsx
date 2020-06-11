@@ -4,7 +4,7 @@ function ProductList(props) {
   function reduceInventory(index) {
     const newInvArray = [...props.items];
     newInvArray[index].invQuant -= 1;
-    props.setCartProducts(newInvArray);
+    console.log(newInvArray);
   }
   return (
     <div>
@@ -23,6 +23,7 @@ function ProductList(props) {
               </tr>
             </table>
             <button
+              className="addToCart"
               onClick={() => {
                 props.setCartProducts(
                   props.cartProducts.concat(props.items[index])

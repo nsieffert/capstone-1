@@ -128,17 +128,18 @@ p {
 .productTable,
 td {
   border: 1px solid rgb(47, 55, 172);
+  border-style: inset;
   background-color: rgb(210, 210, 231);
   table-layout: fixed;
   margin-left: auto;
   margin-right: auto;
 }
 .nav {
-  width: 10%;
+  width: 20%;
   display: flex;
-  justify-content: space-around;
-  margin-left: 540px;
-  text-decoration: none;
+  justify-content: space-between;
+  margin-left: 500px;
+  list-style-type: none;
 }
 
 .active {
@@ -173,10 +174,43 @@ td {
 .input {
   float: right;
   background-color: rgb(216, 198, 98);
-  margin-top: -1290px;
-  padding-right: 2px;
+  margin-top: -90px;
+  margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.cartProducts {
+  margin-left: 500px;
+}
+.addToCart {
+  background-color: red;
+  color: white;
+}
+.checkout {
+  background-color: rgb(76, 27, 168);
+  color: white;
+  margin-left: 500px;
+}
+.checkoutDetails {
+  margin-left: 500px;
+}
+.aboutThem {
+  border-radius: 50%;
+  border: 7px solid rgb(214, 221, 240);
+  width: 150px;
+  height: 150px;
+}
+.aboutTable {
+  margin-left: 10px;
+  margin-right: 10px;
+  table-layout: fixed;
+  border-style: inset;
+}
+.aboutHeader {
+  font-size: 28px;
+  width: 20%;
+  padding-left: 15px;
+}
+.aboutText {
+  text-align: center;
+  width: 70%;
 }

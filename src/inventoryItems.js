@@ -2,7 +2,7 @@ const inventoryItems = [
   {
     sku: "100",
     name: "My Damascas Knife",
-    price: "$135",
+    price: "135",
     mfg: "Made by TVK",
     invQuant: 2,
     cartQuant: 0,
@@ -14,7 +14,7 @@ const inventoryItems = [
   {
     sku: "101",
     name: "Cool Ribbon Knife",
-    price: "$185",
+    price: "185",
     mfg: "Made by TVK",
     invQuant: 1,
     cartQuant: 0,
@@ -26,7 +26,7 @@ const inventoryItems = [
   {
     sku: "102",
     name: "Sweet Fish Knife",
-    price: "$110",
+    price: "110",
     mfg: "Made by TVK",
     invQuant: 1,
     cartQuant: 0,
@@ -38,7 +38,7 @@ const inventoryItems = [
   {
     sku: "103",
     name: "New Etched Knife",
-    price: "$110",
+    price: "110",
     mfg: "Made by TVK",
     invQuant: 3,
     cartQuant: 0,
@@ -50,7 +50,7 @@ const inventoryItems = [
   {
     sku: "104",
     name: "Rat HotRod Knife",
-    price: "$125",
+    price: "125",
     mfg: "Made by TVK",
     invQuant: 2,
     cartQuant: 0,
@@ -62,7 +62,7 @@ const inventoryItems = [
   {
     sku: "200",
     name: "Leather to Order",
-    price: "$55",
+    price: "55",
     mfg: "Made by TVK",
     invQuant: 1,
     cartQuant: 0,
@@ -74,7 +74,7 @@ const inventoryItems = [
   {
     sku: "201",
     name: "Leather Pincushion",
-    price: "$12",
+    price: "12",
     mfg: "Made by TVK",
     invQuant: 5,
     cartQuant: 0,
@@ -86,7 +86,7 @@ const inventoryItems = [
   {
     sku: "202",
     name: "Leather Rad Mask",
-    price: "$45",
+    price: "45",
     mfg: "Made by TVK",
     invQuant: 2,
     cartQuant: 0,
@@ -98,7 +98,7 @@ const inventoryItems = [
   {
     sku: "203",
     name: "Leather Notebook",
-    price: "$23",
+    price: "23",
     mfg: "Made by TVK",
     invQuant: 3,
     cartQuant: 0,
@@ -110,7 +110,7 @@ const inventoryItems = [
   {
     sku: "204",
     name: "Leather mini skull",
-    price: "$15",
+    price: "15",
     mfg: "Made by TVK",
     invQuant: 4,
     cartQuant: 0,
