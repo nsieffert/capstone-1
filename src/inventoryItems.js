@@ -1,9 +1,9 @@
 const inventoryItems = [
   {
     sku: "100",
-    name: "My Damascas Knife",
+    name: "Damascus Steel Resin-handle Knife",
     price: "135",
-    mfg: "Made by TVK",
+    mfg: "Custom made by Two Veterans Knives",
     invQuant: 2,
     cartQuant: 0,
     image:
@@ -13,9 +13,9 @@ const inventoryItems = [
   },
   {
     sku: "101",
-    name: "Cool Ribbon Knife",
+    name: "Desert Storm Ribbon Knife",
     price: "185",
-    mfg: "Made by TVK",
+    mfg: "Custom made by Two Veterans Knives",
     invQuant: 1,
     cartQuant: 0,
     image:
@@ -25,9 +25,9 @@ const inventoryItems = [
   },
   {
     sku: "102",
-    name: "Sweet Fish Knife",
+    name: "Big-Mouth Bass Knife",
     price: "110",
-    mfg: "Made by TVK",
+    mfg: "Custom made by Two Veterans Knives",
     invQuant: 1,
     cartQuant: 0,
     image:
@@ -37,9 +37,9 @@ const inventoryItems = [
   },
   {
     sku: "103",
-    name: "New Etched Knife",
+    name: "Custom Etched Knife - Your choice of image",
     price: "110",
-    mfg: "Made by TVK",
+    mfg: "Custom made by Two Veterans Knives",
     invQuant: 3,
     cartQuant: 0,
     image:
@@ -49,9 +49,9 @@ const inventoryItems = [
   },
   {
     sku: "104",
-    name: "Rat HotRod Knife",
+    name: "Doug's RatRod Knife",
     price: "125",
-    mfg: "Made by TVK",
+    mfg: "Custom made by Two Veterans Knives",
     invQuant: 2,
     cartQuant: 0,
     image:
@@ -63,7 +63,7 @@ const inventoryItems = [
     sku: "200",
     name: "Leather to Order",
     price: "55",
-    mfg: "Made by TVK",
+    mfg: "Custom made by Two Veterans Knives",
     invQuant: 1,
     cartQuant: 0,
     image:
@@ -73,9 +73,9 @@ const inventoryItems = [
   },
   {
     sku: "201",
-    name: "Leather Pincushion",
+    name: "Leather Pincushion with your logo!",
     price: "12",
-    mfg: "Made by TVK",
+    mfg: "Custom made by Two Veterans Knives",
     invQuant: 5,
     cartQuant: 0,
     image:
@@ -85,9 +85,9 @@ const inventoryItems = [
   },
   {
     sku: "202",
-    name: "Leather Rad Mask",
+    name: "Leather Radiation Mask",
     price: "45",
-    mfg: "Made by TVK",
+    mfg: "Custom made by Two Veterans Knives",
     invQuant: 2,
     cartQuant: 0,
     image:
@@ -97,9 +97,9 @@ const inventoryItems = [
   },
   {
     sku: "203",
-    name: "Leather Notebook",
+    name: "Leather Notebook Cover - made to order",
     price: "23",
-    mfg: "Made by TVK",
+    mfg: "Custom made by Two Veterans Knives",
     invQuant: 3,
     cartQuant: 0,
     image:
@@ -109,9 +109,9 @@ const inventoryItems = [
   },
   {
     sku: "204",
-    name: "Leather mini skull",
+    name: "Leather mini skull - your choice of colors!",
     price: "15",
-    mfg: "Made by TVK",
+    mfg: "Custom made by Two Veterans Knives",
     invQuant: 4,
     cartQuant: 0,
     image:

@@ -4,24 +4,25 @@ function ProductList(props) {
   function reduceInventory(index) {
     const newInvArray = [...props.items];
     newInvArray[index].invQuant -= 1;
-    console.log(newInvArray);
   }
   return (
     <div>
       {props.items.map((item, index) => {
         return (
-          <>
-            <table className="productTable">
-              <tr>
+          <div className="flex">
+            <div className="card">
+              <div className="top">
+                <h2 className="name">{item.name}</h2>
                 <img className="circleImg" src={item.image} alt="Avatar" />
-                <td className="name">{item.name}</td>
-                <td className="price">{item.price}</td>
-                <td className="desc">{item.desc}</td>
-                <td className="mfg">{item.mfg}</td>
-                <td className="cat">{item.category}</td>
-                <td className="qty">{item.invQuant}</td>
-              </tr>
-            </table>
+              </div>
+              <div className="bottom">
+                <div className="info">${item.price}</div>
+                <div className="info">{item.desc}</div>
+                <div className="info">{item.mfg}</div>
+                <div className="info">search by: {item.category}</div>
+                <div className="info">Quantity Available:{item.invQuant}</div>
+              </div>
+            </div>
             <button
               className="addToCart"
               onClick={() => {
@@ -33,7 +34,7 @@ function ProductList(props) {
             >
               Add to Cart
             </button>
-          </>
+          </div>
         );
       })}
     </div>

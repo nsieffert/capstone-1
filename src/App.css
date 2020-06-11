@@ -39,7 +39,6 @@ p {
   text-align: center;
 }
 
-/* all of this was from when I built the cards 
 .flex {
   width: 65%;
   padding: 9px;
@@ -65,13 +64,21 @@ p {
 .top {
   border-radius: 25px 25px 0 0;
   height: 100px;
-  width: 50%;
-  background-color: white;
+  width: 100%;
+  background-color: #e0e9e9;
   position: absolute;
   top: 0;
   left: 0;
   display: flex;
-} 
+}
+
+.name {
+  font-size: 2em;
+  color: #2d3436;
+  display: flex;
+  flex: 1;
+  margin: 4% 20px 50px;
+}
 
 .card img {
   margin: 30px 20px 0 0;
@@ -89,17 +96,9 @@ p {
 }
 
 .info {
-  margin: 20px 0;
-  color: #1a7e76;
+  color: #125f59;
 }
-*/
 
-.name {
-  font-size: 2em;
-  color: #2d3436;
-  padding: 20px;
-  width: 35%;
-}
 .price {
   width: 3.5%;
 }
@@ -121,8 +120,8 @@ p {
 .circleImg {
   border-radius: 50%;
   border: 7px solid rgb(214, 221, 240);
-  width: 90px;
-  height: 90px;
+  width: 140px;
+  height: 150px;
 }
 
 .productTable,
@@ -184,6 +183,8 @@ td {
 .addToCart {
   background-color: red;
   color: white;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .checkout {
   background-color: rgb(76, 27, 168);
@@ -213,4 +214,10 @@ td {
 .aboutText {
   text-align: center;
   width: 70%;
+}
+.shopImg {
+  border-radius: 50%;
+  border: 7px solid rgb(214, 221, 240);
+  width: 170px;
+  height: 170px;
 }

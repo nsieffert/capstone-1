@@ -32,9 +32,10 @@ function About() {
             />
           </td>
           <td className="aboutText">
-            Russel Barton is a Navy vet who currently works at WestRock. He,
-            together with John, is working to build a successful business that
-            delivers great products and helps other vets as well.
+            Russel Barton is a Navy veteran who currently works at WestRock in
+            Greenville, TX. He, together with John, is working to build a
+            successful business that delivers great products and helps other
+            vets as well.
           </td>
         </tr>
       </table>
