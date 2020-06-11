@@ -18,17 +18,17 @@
     2. Planning the Solution
 </h2>
 * Planning and Set Up:
-* What Product do I want to sell?
-* Gather information: photos, pricing, descriptions, quantities;
-* Create file structure on local machine for files, images, data, etc...
-* Prepare GitHub - download repo and get VS Code set up.
+    * What Product do I want to sell?
+    * Gather information: photos, pricing, descriptions, quantities;
+    * Create file structure on local machine for files, images, data, etc...
+    * Prepare GitHub - download repo and get VS Code set up.
 * Design:
-* Layout website look and feel - all pages should carry over same design.
-* Layout the pages and flow;
-* Paper or wireframe to design look of site
-* List needed functionality to "make it happen"
-* Gap analysis: what do I know and what do I need to find out?
-* Lay out learning plan: critical path: required items vs bonus functionality.
+    * Layout website look and feel - all pages should carry over same design.
+    * Layout the pages and flow;
+    * Paper or wireframe to design look of site
+    * List needed functionality to "make it happen"
+    * Gap analysis: what do I know and what do I need to find out?
+    * Lay out learning plan: critical path: required items vs bonus functionality.
 <h2>
     3. Executing the Plan
 </h2>
@@ -38,16 +38,23 @@
     * Product Page
     * Cart Page
     * About Page
+    * Header
+    * NavBar
 * Implement CSS design as needed at this point. (more CSS later).
 * Implement functionality:
-    * Nav Bar
+    * Nav Bar - React Router
     * Search
     * Add to Cart
     * Checkout
 * Clear up errors
 * Implement CSS design
-*
-*
+    * split up css files
+* Final steps
+    * test drive website
+    * upload to github
+    * pull request
+    * grading form
+    * evaluation
 *
 <h2>
     4. Reflection / Refactor
@@ -55,7 +62,7 @@
 * With more time I could implement a better search bar
 * With more time I could implement a better checkout process
 * Learning curve high, time to learn low;
-* It basically worked, but wanted it to work better!
+* 
 *
 *
 *

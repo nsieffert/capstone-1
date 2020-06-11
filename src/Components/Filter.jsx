@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import "../filter.css";
 
+//search function
 function Filter(props) {
   const [value, setValue] = useState("");
   function search() {

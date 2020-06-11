@@ -1,16 +1,14 @@
 import React from "react";
-import { Elements } from "@stripe/react-stripe-js";
-import { loadStripe } from "@stripe/stripe-js";
+import "../cart.css";
 
+// cart reduce to total up prices.
 function Cart(props) {
   const totalPrice = props.cartProducts.reduce(
     (acc, curr) => acc + parseInt(curr.price),
     0
   );
 
-  const stripePromise = loadStripe(
-    "pk_test_JJ1eMdKN0Hp4UFJ6kWXWO4ix00jtXzq5XG"
-  );
+  //map items to shopping cart
   return (
     <div>
       {props.cartProducts.map((item, index) => {

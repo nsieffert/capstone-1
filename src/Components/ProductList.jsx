@@ -1,5 +1,7 @@
 import React from "react";
+import "../product.css";
 
+//Products List
 function ProductList(props) {
   function reduceInventory(index) {
     const newInvArray = [...props.items];
@@ -16,14 +18,16 @@ function ProductList(props) {
                 <img className="circleImg" src={item.image} alt="Avatar" />
               </div>
               <div className="bottom">
+                <div className="info">Sku {item.serNum}</div>
                 <div className="info">${item.price}</div>
-                <div className="info">{item.desc}</div>
+                <div className="info">Description:{item.desc}</div>
                 <div className="info">{item.mfg}</div>
                 <div className="info">search by: {item.category}</div>
                 <div className="info">Quantity Available:{item.invQuant}</div>
               </div>
             </div>
             <button
+              //add to cart button
               className="addToCart"
               onClick={() => {
                 props.setCartProducts(

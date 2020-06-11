@@ -1,5 +1,7 @@
 import React from "react";
+import "../header.css";
 
+//fixed header
 function Header() {
   return (
     <div className="header">

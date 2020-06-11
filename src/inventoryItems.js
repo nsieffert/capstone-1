@@ -1,6 +1,6 @@
 const inventoryItems = [
   {
-    sku: "100",
+    serNum: "100",
     name: "Damascus Steel Resin-handle Knife",
     price: "135",
     mfg: "Custom made by Two Veterans Knives",
@@ -12,7 +12,7 @@ const inventoryItems = [
     category: "knives",
   },
   {
-    sku: "101",
+    serNum: "101",
     name: "Desert Storm Ribbon Knife",
     price: "185",
     mfg: "Custom made by Two Veterans Knives",
@@ -24,7 +24,7 @@ const inventoryItems = [
     category: "knives",
   },
   {
-    sku: "102",
+    serNum: "102",
     name: "Big-Mouth Bass Knife",
     price: "110",
     mfg: "Custom made by Two Veterans Knives",
@@ -36,7 +36,7 @@ const inventoryItems = [
     category: "knives",
   },
   {
-    sku: "103",
+    serNum: "103",
     name: "Custom Etched Knife - Your choice of image",
     price: "110",
     mfg: "Custom made by Two Veterans Knives",
@@ -48,7 +48,7 @@ const inventoryItems = [
     category: "knives",
   },
   {
-    sku: "104",
+    serNum: "104",
     name: "Doug's RatRod Knife",
     price: "125",
     mfg: "Custom made by Two Veterans Knives",
@@ -60,7 +60,7 @@ const inventoryItems = [
     category: "knives",
   },
   {
-    sku: "200",
+    serNum: "200",
     name: "Leather to Order",
     price: "55",
     mfg: "Custom made by Two Veterans Knives",
@@ -72,7 +72,7 @@ const inventoryItems = [
     category: "leather",
   },
   {
-    sku: "201",
+    serNum: "201",
     name: "Leather Pincushion with your logo!",
     price: "12",
     mfg: "Custom made by Two Veterans Knives",
@@ -84,7 +84,7 @@ const inventoryItems = [
     category: "leather",
   },
   {
-    sku: "202",
+    serNum: "202",
     name: "Leather Radiation Mask",
     price: "45",
     mfg: "Custom made by Two Veterans Knives",
@@ -96,7 +96,7 @@ const inventoryItems = [
     category: "leather",
   },
   {
-    sku: "203",
+    serNum: "203",
     name: "Leather Notebook Cover - made to order",
     price: "23",
     mfg: "Custom made by Two Veterans Knives",
@@ -108,7 +108,7 @@ const inventoryItems = [
     category: "leather",
   },
   {
-    sku: "204",
+    serNum: "204",
     name: "Leather mini skull - your choice of colors!",
     price: "15",
     mfg: "Custom made by Two Veterans Knives",

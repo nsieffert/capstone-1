@@ -1,8 +1,10 @@
 import React from "react";
+import "../about.css";
 
+// About John and Russell
 function About() {
   return (
-    <div className="aboutPage">
+    <div>
       <table className="aboutTable">
         <tr>
           <td className="aboutHeader">John Sieffert</td>

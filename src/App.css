@@ -5,118 +5,16 @@
 body {
   background-color: rgb(238, 239, 245);
 }
-.header {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: space-between;
-  background-color: black;
-  width: 99%;
-  height: 92px;
-  padding: 10px;
-  color: white;
-  position: left;
-}
 
 p {
   float: right;
   margin-top: -700px;
 }
 
-.logo {
-  width: 250px;
-  height: 100px;
-  margin-left: 5px;
-  padding-top: 1px;
-}
-.servLogos {
-  border-radius: 50%;
-  border: 7px solid #fff;
-  width: 75px;
-  height: 75px;
-}
-
 .OurItems {
   text-align: center;
 }
 
-.flex {
-  width: 65%;
-  padding: 9px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-.card {
-  border-radius: 25px;
-  position: relative;
-  padding: 25px 15px;
-  background-color: #a0b4c4;
-  margin: 50px 10px;
-  padding-left: 20px;
-  height: 200px;
-  box-shadow: 0 2px 5px rgb(46, 45, 45);
-  text-align: left;
-}
-
-.top {
-  border-radius: 25px 25px 0 0;
-  height: 100px;
-  width: 100%;
-  background-color: #e0e9e9;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-}
-
-.name {
-  font-size: 2em;
-  color: #2d3436;
-  display: flex;
-  flex: 1;
-  margin: 4% 20px 50px;
-}
-
-.card img {
-  margin: 30px 20px 0 0;
-}
-
-.circle-img {
-  border-radius: 50%;
-  border: 7px solid #fff;
-  width: 120px;
-  height: 120px;
-}
-
-.bottom {
-  margin-top: 120px;
-}
-
-.info {
-  color: #125f59;
-}
-
-.price {
-  width: 3.5%;
-}
-.desc {
-  width: 37%;
-}
-
-.mfg {
-  width: 10%;
-}
-
-.cat {
-  width: 5%;
-}
-
-.qty {
-  width: 3%;
-}
 .circleImg {
   border-radius: 50%;
   border: 7px solid rgb(214, 221, 240);
@@ -124,100 +22,9 @@ p {
   height: 150px;
 }
 
-.productTable,
-td {
-  border: 1px solid rgb(47, 55, 172);
-  border-style: inset;
-  background-color: rgb(210, 210, 231);
-  table-layout: fixed;
-  margin-left: auto;
-  margin-right: auto;
-}
-.nav {
-  width: 20%;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 500px;
-  list-style-type: none;
-}
-
-.active {
-  color: rgb(202, 52, 32);
-  text-decoration: none;
-}
-.nav a:hover {
-  color: rgb(72, 202, 32);
-  text-decoration: none;
-}
-.nav a:active {
-  color: rgb(202, 52, 32);
-  text-decoration: none;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .input {
   float: right;
   background-color: rgb(216, 198, 98);
   margin-top: -90px;
   margin-left: 10px;
-}
-
-.cartProducts {
-  margin-left: 500px;
-}
-.addToCart {
-  background-color: red;
-  color: white;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-.checkout {
-  background-color: rgb(76, 27, 168);
-  color: white;
-  margin-left: 500px;
-}
-.checkoutDetails {
-  margin-left: 500px;
-}
-.aboutThem {
-  border-radius: 50%;
-  border: 7px solid rgb(214, 221, 240);
-  width: 150px;
-  height: 150px;
-}
-.aboutTable {
-  margin-left: 10px;
-  margin-right: 10px;
-  table-layout: fixed;
-  border-style: inset;
-}
-.aboutHeader {
-  font-size: 28px;
-  width: 20%;
-  padding-left: 15px;
-}
-.aboutText {
-  text-align: center;
-  width: 70%;
-}
-.shopImg {
-  border-radius: 50%;
-  border: 7px solid rgb(214, 221, 240);
-  width: 170px;
-  height: 170px;
 }
