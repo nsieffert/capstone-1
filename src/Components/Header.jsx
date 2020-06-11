@@ -7,26 +7,32 @@ function Header() {
       <img
         className="logo"
         src="http://twoveteransknives.com/wp-content/uploads/2020/06/TVK-LOGO-white-300x149.jpg"
+        alt="mil"
       />
       <img
         className="servLogos"
         src="http://twoveteransknives.com/wp-content/uploads/2020/06/armylogo.jpg"
+        alt="mil"
       />
       <img
         className="servLogos"
         src="http://twoveteransknives.com/wp-content/uploads/2020/06/airforceloo.jpg"
+        alt="mil"
       />
       <img
         className="servLogos"
         src="http://twoveteransknives.com/wp-content/uploads/2020/06/navylogo.jpg"
+        alt="mil"
       />
       <img
         className="servLogos"
         src="http://twoveteransknives.com/wp-content/uploads/2020/06/marinecorplogo.jpg"
+        alt="mil"
       />
       <img
         className="servLogos"
         src="http://twoveteransknives.com/wp-content/uploads/2020/06/coastguardlogo.jpg"
+        alt="mil"
       />
     </div>
   );

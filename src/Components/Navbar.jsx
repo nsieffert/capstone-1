@@ -1,17 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="nav">
-      <a
-        className="active"
-        href="C:\Users\Norita\atekprojects/capstone-1\inventory\src\Components\Knives.jsx"
-      >
-        Shop
-      </a>
-      <a href="C:\Users\Norita\atekprojects/capstone-1\inventory\src\Components\Knives.jsx">
-        Cart
-      </a>
+    <nav>
+      <ul className="nav">
+        <Link to="/home">
+          <li>Products</li>
+        </Link>
+        <Link to="/cart">
+          <li>Shop</li>
+        </Link>
+      </ul>
     </nav>
   );
 }
