@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  background-color: black;
+  width: 99%;
+  height: 92px;
+  padding: 10px;
+  color: white;
+  position: left;
+}
+
+.logo {
+  width: 250px;
+  height: 100px;
+  margin-left: 5px;
+  padding-top: 1px;
+}
+.servLogos {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 75px;
+  height: 75px;
+}

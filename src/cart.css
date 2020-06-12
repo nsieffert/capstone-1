@@ -1,0 +1,17 @@
+.shopImg {
+  border-radius: 50%;
+  border: 7px solid rgb(214, 221, 240);
+  width: 170px;
+  height: 170px;
+}
+.cartProducts {
+  margin-left: 500px;
+}
+.checkout {
+  background-color: rgb(76, 27, 168);
+  color: white;
+  margin-left: 500px;
+}
+.checkoutDetails {
+  margin-left: 500px;
+}

@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(238, 239, 245);
+}
+
+p {
+  float: right;
+  margin-top: -700px;
+}
+
+.OurItems {
+  text-align: center;
+}
+
+.circleImg {
+  border-radius: 50%;
+  border: 7px solid rgb(214, 221, 240);
+  width: 140px;
+  height: 150px;
+}
+
+.input {
+  float: right;
+  background-color: rgb(216, 198, 98);
+  margin-top: -90px;
+  margin-left: 10px;
+}
