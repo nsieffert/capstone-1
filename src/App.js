@@ -13,11 +13,12 @@ function App(props) {
   const [items, setItems] = useState(inventoryItems);
   const [cartProducts, setCartProducts] = useState([]);
 
+  // search function goes with function page/product list page
   function searchCategories(input) {
     const newCategories = items.filter((p) => p.category === input);
     setItems(newCategories);
   }
-
+  //Navigation area
   return (
     <div>
       <Header />

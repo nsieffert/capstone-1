@@ -49,6 +49,7 @@
 * Clear up errors
 * Implement CSS design
     * split up css files
+    * notate components
 * Final steps
     * test drive website
     * upload to github

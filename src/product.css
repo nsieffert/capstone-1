@@ -43,11 +43,11 @@
   margin: 30px 20px 0 0;
 }
 
-.circle-img {
+.circleImg {
   border-radius: 50%;
   border: 7px solid #fff;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
 }
 
 .bottom {
